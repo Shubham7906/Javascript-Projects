@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Switcher</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 80%;
+            margin: 100px auto 100px;
+            text-align: center;
+
+        }
+        #grey{
+            background-color: grey;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #black{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #red{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #orange{
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #yellow{
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        #purple{
+            background-color: purple;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        .button{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Color Scheme Switcher</h2>
+    <span class="button" id="grey"></span>
+    <span class="button" id="black"></span>
+    <span class="button" id="red"></span>
+    <span class="button" id="orange"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="purple"></span>
+    <h2>Try clicking on one of the colors above</h2>
+    <pre>to change the background color of this page</pre>
+    </div>
+    <script src="colorchanger.js"></script>
+</body>
+</html>
